@@ -1,0 +1,323 @@
+/* general */
+
+body {
+    background-color: #000000;
+    background-image: url("../imgs/leeds3.jpg");
+    background-attachment:fixed;
+    background-position: center;
+}
+
+h1 {
+    color:#f0ffff;
+    font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+    color:#f0ffff;
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    color:#f0ffff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    color: #f0ffff;
+    transition: ease-in-out 50ms;
+}
+
+a:hover {
+    text-decoration: none;
+    color:coral;
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 400ms ease-in;
+}
+
+.fade-in.show {
+    opacity: 1;
+}
+
+/* nav */
+.navbar {
+    min-height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.85);
+}
+
+.link {
+    margin-right: 1em;
+    margin-left: 1em;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.logo {
+    margin: 1em;
+    max-height: 15vh;
+    transition: opacity 100ms ease-in;
+}
+
+.logo:hover {
+    opacity: 0.8;
+}
+
+@media only screen and (max-width: 990px){
+    .navbar {
+        display: block;
+        text-align:initial;
+        min-height:100%;
+    }
+
+    .link {
+        margin: 5px;
+    }
+
+    .logo {
+        display: none;
+    }
+}
+
+/* index */
+.main {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    background-image: url("../imgs/promo2.jpg");
+}
+
+.main-text {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.3);
+    padding-right: 1em;
+    padding-left:1em;
+}
+/* bio section */
+.section-bio {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.section-bio:nth-child(1) {
+    background-image: url("../imgs/bio1.jpg");
+}
+  
+.section-bio:nth-child(2) {
+    background-image: url("../imgs/bio2.jpg");
+} 
+
+.section-bio:nth-child(3) {
+    background-image: url("../imgs/bio3.jpg");
+}
+
+.section-bio:nth-child(4) {
+    background-image: url("../imgs/bio4.jpg");
+}
+
+.bio-text {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding-left:20em;
+    padding-right:20em;
+}
+
+@media only screen and (max-width: 1100px){
+    .bio-text{
+        padding: 1em;
+    }
+}
+
+/* music */
+
+.section-music {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 70vh;
+}
+
+.section-music:nth-child(1) {
+    background-image: url("../imgs/comatose.jpg");
+}
+  
+.section-music:nth-child(2) {
+    background-image: url("../imgs/AoD.jpg");
+} 
+
+.section-music:nth-child(3) {
+    background-image: url("../imgs/blindworld.jpg");
+}
+
+.section-music:nth-child(4) {
+    background-image: url("../imgs/anecdotes.jpg");
+}
+
+.album-art {
+    height: 50vh;
+    margin:1em;
+}
+
+.album-spotify {
+    height: 50vh;
+}
+
+.music-text {
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding-left:20em;
+    padding-right:20em;
+}
+
+@media only screen and (max-width: 990px){
+    .music-text{
+        padding: 1em;
+    }
+
+    .album-art {
+        display: none;
+    }
+
+    .album-spotify {
+        height:40vh;
+    }
+
+}
+
+/* merch */
+.merch {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    background-image: url("../imgs/merch.jpg");
+}
+
+.merch-text {
+    min-height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    padding-top: 2em;
+    padding-left:10em;
+    padding-right:10em;
+}
+
+@media only screen and (max-width:1100px){
+    .merch-text {
+        padding-right: 1em;
+        padding-left: 1em;
+    }
+}
+
+/* tour */
+
+.tour {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    background-image: url("../imgs/tour.jpg");
+}
+
+.tour-text {
+    min-height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left:20em;
+    padding-right:20em;
+}
+
+@media only screen and (max-width: 990px){
+    .tour-text {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+}
+
+/* contact */
+.contact {
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    background-image: url("../imgs/promo4.jpg");
+}
+
+.contact-text {
+    min-height: 100vh;
+    width:100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.3);
+    padding-right: 1em;
+    padding-left:1em;
+}
+
+.row {
+     width: 100%;
+}
+.col-xl-6 {
+    margin-top: 3em;
+    min-height: 550px;
+}
+.fab {
+    color:#f0ffff;
+    margin:1rem;
+    transition: ease-in-out 50ms;
+}
+
+.fab:hover {
+    color: coral;
+    cursor: pointer;
+}
+
+.fb-container {
+    max-width:340px;
+    position: relative;
+    margin: auto;
+}
+
+.iframe-container {
+    max-width:340px;
+    position: relative;
+    margin: auto;
+}
+
+.ig-container {
+    max-width:340px;
+    position: relative;
+    margin: auto;
+}
+
+/* footer */
+.foot {
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.85);
+}
