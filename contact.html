@@ -23,7 +23,8 @@
     <link rel="stylesheet" href="style/css.css" />
     <script src="https://cdn2.woxo.tech/a.js#61e4015bc7e3410016c74eac" async data-usrc></script>
     <script defer src="script/script.js"></script>
-    <title>Ghost Iris</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Ghost Iris - official website</title>
 </head>
 <header>
     <nav class="navbar navbar-expand-lg navbar-dark">
@@ -70,9 +71,9 @@
             <div class="row">
                 <div class="col-xl-6">
                     <h3>Connect with us</h3>
-                    <i class="fab fa-instagram-square fa-3x" onclick="showSocial('instagram'); "></i>
-                    <i class="fab fa-facebook-square fa-3x" onclick="showSocial('facebook');"></i>
-                    <i class="fab fa-spotify fa-3x" onclick="showSocial('spotify');"></i>
+                    <i class="fab fa-instagram-square fa-3x" id="igClick" onclick="showSocial('instagram'); "></i>
+                    <i class="fab fa-facebook-square fa-3x" id="fbClick" onclick="showSocial('facebook');"></i>
+                    <i class="fab fa-spotify fa-3x" id="spotifyClick" onclick="showSocial('spotify');"></i>
 
                     <div>
                         <div class="ig-container" id="instagram" style="display: block;">
@@ -95,11 +96,10 @@
                                 allow="encrypted-media"></iframe>
                         </div>
                     </div>
-
                 </div>
 
                 <div class="col-xl-6">
-                    <h3>Reach out</h3>
+                    <h3>Reach out to us</h3>
                     <p style="font-weight: bold;">Management - <a href="mailto: allen@godownbelieving.com"
                             style="font-weight:normal">Allen Wright (Go Down Believing Management)</a></p>
                     <p style="font-weight: bold;">Booking (Europe/UK) - <a href="mailto: maarten@avocado-booking.com"

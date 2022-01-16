@@ -12,6 +12,11 @@ h1 {
     font-family: 'Raleway', sans-serif;
 }
 
+h2 {
+    color:#f0ffff;
+    font-family: 'Raleway', sans-serif;
+}
+
 h3 {
     color:#f0ffff;
     font-family: 'Raleway', sans-serif;
@@ -311,6 +316,28 @@ a:hover {
     position: relative;
     margin: auto;
 }
+
+/* privacy */
+.privacy {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    background-image: url("../imgs/promo2.jpg");
+}
+
+.privacy-text {
+    min-height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    padding:10em;
+}
+
+@media only screen and (max-width: 1100px){
+    .privacy-text {
+        padding:1em;
+    }
+}
+
 
 /* footer */
 .foot {

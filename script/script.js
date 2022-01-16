@@ -16,7 +16,7 @@ faders.forEach(fade => {
     scroller.observe(fade);
 })
 
-// toggle div contacts
+// toggle socials
 var divs = ["facebook", "instagram", "spotify"];
 var visibleId = null;
 
@@ -29,6 +29,7 @@ function showSocial(id) {
 
 function hideSocial() {
     var div;
+    var id;
 
     for(i = 0; i < divs.length; i++) {
     id = divs[i];
@@ -41,3 +42,28 @@ function hideSocial() {
     }
     }
 }
+
+//fade socials
+$(document).ready(function(){
+$('#igClick').click(function(){
+    $('#instagram').fadeOut(0);
+});
+$('#igClick').click(function(){
+    $('#instagram').fadeIn();
+});
+
+$('#fbClick').click(function(){
+    $('#facebook').fadeOut(0);
+});
+$('#fbClick').click(function(){
+    $('#facebook').fadeIn();
+});
+
+$('#spotifyClick').click(function(){
+    $('#spotify').fadeOut(0);
+});
+$('#spotifyClick').click(function(){
+    $('#spotify').fadeIn();
+});
+});
+
