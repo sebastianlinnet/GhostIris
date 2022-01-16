@@ -2,7 +2,7 @@
 
 body {
     background-color: #000000;
-    background-image: url("/imgs/leeds3.jpg");
+    background-image: url("imgs/leeds3.jpg");
     background-attachment:fixed;
     background-position: center;
 }
@@ -95,7 +95,7 @@ a:hover {
     background-repeat: no-repeat;
     background-position: center;
     min-height: 100vh;
-    background-image: url("/imgs/promo2.jpg");
+    background-image: url("imgs/promo2.jpg");
 }
 
 .main-text {
@@ -118,19 +118,19 @@ a:hover {
 }
 
 .section-bio:nth-child(1) {
-    background-image: url("/imgs/bio1.jpg");
+    background-image: url("imgs/bio1.jpg");
 }
   
 .section-bio:nth-child(2) {
-    background-image: url("/imgs/bio2.jpg");
+    background-image: url("imgs/bio2.jpg");
 } 
 
 .section-bio:nth-child(3) {
-    background-image: url("/imgs/bio3.jpg");
+    background-image: url("imgs/bio3.jpg");
 }
 
 .section-bio:nth-child(4) {
-    background-image: url("/imgs/bio4.jpg");
+    background-image: url("imgs/bio4.jpg");
 }
 
 .bio-text {
@@ -161,19 +161,19 @@ a:hover {
 }
 
 .section-music:nth-child(1) {
-    background-image: url("/imgs/comatose.jpg");
+    background-image: url("imgs/comatose.jpg");
 }
   
 .section-music:nth-child(2) {
-    background-image: url("/imgs/AoD.jpg");
+    background-image: url("imgs/AoD.jpg");
 } 
 
 .section-music:nth-child(3) {
-    background-image: url("/imgs/blindworld.jpg");
+    background-image: url("imgs/blindworld.jpg");
 }
 
 .section-music:nth-child(4) {
-    background-image: url("/imgs/anecdotes.jpg");
+    background-image: url("imgs/anecdotes.jpg");
 }
 
 .album-art {
@@ -217,7 +217,7 @@ a:hover {
     background-repeat: no-repeat;
     background-position: center;
     min-height: 100vh;
-    background-image: url("/imgs/merch.jpg");
+    background-image: url("imgs/merch.jpg");
 }
 
 .merch-text {
@@ -242,7 +242,7 @@ a:hover {
     background-repeat: no-repeat;
     background-position: center;
     min-height: 100vh;
-    background-image: url("/imgs/tour.jpg");
+    background-image: url("imgs/tour.jpg");
 }
 
 .tour-text {
@@ -267,7 +267,7 @@ a:hover {
     background-repeat: no-repeat;
     background-position: center;
     min-height: 100vh;
-    background-image: url("/imgs/promo4.jpg");
+    background-image: url("imgs/promo4.jpg");
 }
 
 .contact-text {
@@ -323,7 +323,7 @@ a:hover {
     background-repeat: no-repeat;
     background-position: center;
     min-height: 100vh;
-    background-image: url("/imgs/promo2.jpg");
+    background-image: url("imgs/promo2.jpg");
 }
 
 .privacy-text {
