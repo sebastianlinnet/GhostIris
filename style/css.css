@@ -122,7 +122,7 @@ a:hover {
 }
   
 .section-bio:nth-child(2) {
-    background-image: url("../imgs/bio2.jpg");
+    background-image: url("../imgs/bio2.JPG");
 } 
 
 .section-bio:nth-child(3) {
@@ -130,7 +130,7 @@ a:hover {
 }
 
 .section-bio:nth-child(4) {
-    background-image: url("../imgs/bio4.jpg");
+    background-image: url("../imgs/bio4.JPG");
 }
 
 .bio-text {
@@ -145,6 +145,10 @@ a:hover {
 }
 
 @media only screen and (max-width: 1100px){
+    .section-bio {
+        background-attachment: scroll;
+    }
+
     .bio-text{
         padding: 1em;
     }
@@ -174,6 +178,12 @@ a:hover {
 
 .section-music:nth-child(4) {
     background-image: url("../imgs/anecdotes.jpg");
+}
+
+@media only screen and (max-width: 1100px){
+    .section-music {
+        background-attachment: scroll;
+    }
 }
 
 .album-art {
@@ -217,7 +227,7 @@ a:hover {
     background-repeat: no-repeat;
     background-position: center;
     min-height: 100vh;
-    background-image: url("../imgs/merch.jpg");
+    background-image: url("../imgs/merch.JPG");
 }
 
 .merch-text {
@@ -242,7 +252,7 @@ a:hover {
     background-repeat: no-repeat;
     background-position: center;
     min-height: 100vh;
-    background-image: url("../imgs/tour.jpg");
+    background-image: url("../imgs/tour.JPG");
 }
 
 .tour-text {
@@ -281,13 +291,11 @@ a:hover {
     padding-left:1em;
 }
 
-.row {
-     width: 100%;
-}
 .col-xl-6 {
     margin-top: 3em;
     min-height: 550px;
 }
+
 .fab {
     color:#f0ffff;
     margin:1rem;
@@ -315,6 +323,10 @@ a:hover {
     max-width:340px;
     position: relative;
     margin: auto;
+}
+
+@media only screen and (max-width: 1200px) {
+    
 }
 
 /* privacy */
