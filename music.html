@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -21,47 +22,62 @@
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/bbe27ab0c5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style/css.css" />
+    <script src="https://cdn2.woxo.tech/a.js#61e4015bc7e3410016c74eac" async data-usrc></script>
     <script defer src="script/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="icon" type="image/x-icon" href="imgs/favicon.png">
     <title>Ghost Iris - official website</title>
 </head>
-<header>
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08"
-            aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <!-- <a class="navbar-brand"><img class="logo-mobile" src="imgs\logo.png"></a> -->
-
-        <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
-            <ul class="navbar-nav item">
-                <li class="link">
-                    <p class="link"><a href="index">Home</a></p>
-                </li>
-                <li class="nav-item link">
-                    <p class="link"><a href="bio">Bio</a></p>
-                </li>
-                <li class="nav-item link">
-                    <p class="link"><a href="music">Music</a></p>
-                </li>
-                <li class="nav-item">
-                    <a href="index"><img class="logo" src="imgs\logo.png"></a>
-                </li>
-                <li class="nav-item link">
-                    <p class="link"><a href="tour">Tour</a></p>
-                </li>
-                <li class="nav-item link">
-                    <p class="link"><a href="merch">Merch</a></p>
-                </li>
-                <li class="nav-item link">
-                    <p class="link"><a href="contact">Contact</a></p>
-                </li>
-            </ul>
-        </div>
-    </nav>
-</header>
 
 <body>
+    <header>
+        <div class="mobile-hamburger">
+            <i class="fas fa-bars fa-2x" style="color: #f0ffff;" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvas" aria-controls="offcanvas"></i>
+
+        </div>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas" aria-labelledby="offcanvas">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvas"></h5>
+                <i class="fas fa-times fa-2x" style="color: #f0ffff" type="button" class="btn-close text-reset"
+                    data-bs-dismiss="offcanvas" aria-label="Close"></i>
+            </div>
+            <div class="offcanvas-body">
+                <div>
+                    <ul class="mobile-hamburger-list">
+                        <li>
+                            <h1><a href="index">Home</a></h1>
+                        </li>
+                        <li>
+                            <h1><a href="bio">Bio</a></h1>
+                        </li>
+                        <li>
+                            <h1><a href="music">Music</a></h1>
+                        </li>
+                        <li>
+                            <h1><a href="tour">Tour</a></h1>
+                        </li>
+                        <li>
+                            <h1><a href="merch">Merch</a></h1>
+                        </li>
+                        <li>
+                            <h1><a href="contact">Contact</a></h1>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <nav class="nav">
+            <p class="link"><a href="index">Home</a></p>
+            <p class="link"><a href="bio">Bio</a></p>
+            <p class="link"><a href="music">Music</a></p>
+            <a href="index"><img class="logo" src="imgs\logo.png"></a>
+            <p class="link"><a href="tour">Tour</a></p>
+            <p class="link"><a href="merch">Merch</a></p>
+            <p class="link"><a href="contact">Contact</a></p>
+        </nav>
+    </header>
+
     <div>
         <div class="section-music">
             <div class="music-text">
@@ -71,10 +87,9 @@
                     SPV/Long Branch Records</p>
                 </div>
                 <div class="flex-break"></div> -->
-                    <img class="album-art" src="imgs/comatose.jpg">
-                    <iframe class="album-spotify"
-                        src="https://open.spotify.com/embed/album/0kPtITBQ4RlBy61FHV1aLf?theme=0" frameBorder="0"
-                        allowtransparency="true" allow="encrypted-media"></iframe>
+                <img class="album-art" src="imgs/comatose.jpg">
+                <iframe class="album-spotify" src="https://open.spotify.com/embed/album/0kPtITBQ4RlBy61FHV1aLf?theme=0"
+                    frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
             </div>
         </div>
 
@@ -121,15 +136,20 @@
         </div>
     </div>
 
-</body>
+    <footer>
+        <div class="foot">
+            <p class="link">&copy; 2022 - Ghost Iris - <a href="https://www.instagram.com/ghostirisdk" target="_blank"
+                    class="so-me"><i class="fa fa-instagram fa-1x"></i></a> <a href="https://www.facebook.com/ghostiris"
+                    target="_blank" class="so-me"><i class="fa fa-facebook fa-1x"></i></a> - <a
+                    href="privacy">Privacy</a>
+            </p>
+        </div>
+    </footer>
 
-<footer>
-    <div class="foot">
-        <p class="link">&copy; 2022 - Ghost Iris - <a href="https://www.instagram.com/ghostirisdk" target="_blank"
-                class="so-me"><i class="fa fa-instagram fa-1x"></i></a> <a href="https://www.facebook.com/ghostiris"
-                target="_blank" class="so-me"><i class="fa fa-facebook fa-1x"></i></a> - <a href="privacy">Privacy</a>
-        </p>
-    </div>
-</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+</body>
 
 </html>
