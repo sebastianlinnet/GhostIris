@@ -74,7 +74,7 @@ a:hover {
 
 .logo {
     margin: 1em;
-    max-height: 20vh;
+    max-height: 15vh;
     transition: opacity 100ms ease-in;
 }
 
