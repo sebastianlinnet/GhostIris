@@ -377,7 +377,7 @@ a:hover {
     background-repeat: no-repeat;
     background-position: center;
     min-height: 100vh;
-    background-image: url("../imgs/promo4.jpg");
+    background-image: url("../imgs/contact1.JPG");
 }
 
 .contact-text {
@@ -388,7 +388,7 @@ a:hover {
     text-align: center;
     background: rgba(0, 0, 0, 0.3);
     padding-right: 1em;
-    padding-left:1em;
+    padding-left: 1em;
 }
 
 .row-container {
