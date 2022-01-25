@@ -307,6 +307,22 @@ a:hover {
     padding-top: 2em;
     padding-left:10em;
     padding-right:10em;
+    text-align: center;
+}
+
+.additional-merch-opacity {
+    padding: 2em;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 2px;
+}
+
+.additional-merch-img {
+    max-width: 200px;
+    transition: ease-in-out 150ms;
+}
+
+.additional-merch-img:hover {
+    opacity: 0.5;
 }
 
 @media only screen and (max-width:1100px){
@@ -317,6 +333,15 @@ a:hover {
 
     .merch {
         background-attachment: scroll;
+    }
+
+    .additional-merch-opacity {
+        margin: 1em;
+        padding: 1em;
+    }
+
+    #reverse-merch.row {
+        flex-direction: column-reverse;
     }
 }
 
