@@ -317,8 +317,8 @@ a:hover {
 
 .additional-merch-opacity {
     padding: 2em;
-    background: rgba(0, 0, 0, 0.5);
-    border-radius: 2px;
+    /* background: rgba(0, 0, 0, 0.5);
+    border-radius: 2px; */
 }
 
 .additional-merch-img {
