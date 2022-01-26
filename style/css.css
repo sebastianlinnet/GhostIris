@@ -305,14 +305,19 @@ a:hover {
     min-height: 100vh;
     background: rgba(0, 0, 0, 0.5);
     padding-top: 2em;
-    padding-left:10em;
-    padding-right:10em;
-    text-align: center;
+    padding-left:5em;
+    padding-right:5em;
+}
+
+.merch-opacity {
+    padding: 2em;
+    background: rgba(0, 0, 0, 0.5);
+    margin-bottom: 1em;
 }
 
 .additional-merch-opacity {
     padding: 2em;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.5);
     border-radius: 2px;
 }
 
@@ -329,6 +334,10 @@ a:hover {
     .merch-text {
         padding-right: 1em;
         padding-left: 1em;
+    }
+
+    .merch-opacity {
+        margin: 1em;
     }
 
     .merch {

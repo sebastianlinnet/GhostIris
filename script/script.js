@@ -31,15 +31,15 @@ function hideSocial() {
     var div;
     var id;
 
-    for(i = 0; i < divs.length; i++) {
-    id = divs[i];
-    div = document.getElementById(id);
+    for (i = 0; i < divs.length; i++) {
+        id = divs[i];
+        div = document.getElementById(id);
 
-    if(visibleId == id) {
-        div.style.display = "block";
-    } else {
-        div.style.display = "none";
-    }
+        if (visibleId == id) {
+            div.style.display = "block";
+        } else {
+            div.style.display = "none";
+        }
     }
 }
 
