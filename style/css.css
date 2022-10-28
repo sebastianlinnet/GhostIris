@@ -177,19 +177,19 @@ a:hover {
 }
 
 .section-bio:nth-child(1) {
-    background-image: url("../imgs/bio1.jpg");
+    background-image: url("../imgs/bio1_2.jpg");
 }
   
 .section-bio:nth-child(2) {
-    background-image: url("../imgs/bio2.JPG");
+    background-image: url("../imgs/bio2_2.JPG");
 } 
 
 .section-bio:nth-child(3) {
-    background-image: url("../imgs/bio3.jpg");
+    background-image: url("../imgs/bio3_2.jpg");
 }
 
 .section-bio:nth-child(4) {
-    background-image: url("../imgs/bio4.JPG");
+    background-image: url("../imgs/bio4_2.jpg");
 }
 
 .bio-text {
@@ -224,19 +224,19 @@ a:hover {
 }
 
 .section-music:nth-child(1) {
-    background-image: url("../imgs/comatose.jpg");
+    background-image: url("../imgs/comatose_2.jpg");
 }
   
 .section-music:nth-child(2) {
-    background-image: url("../imgs/AoD.jpg");
+    background-image: url("../imgs/AoD_2.jpg");
 } 
 
 .section-music:nth-child(3) {
-    background-image: url("../imgs/blindworld.jpg");
+    background-image: url("../imgs/blindworld_2.jpg");
 }
 
 .section-music:nth-child(4) {
-    background-image: url("../imgs/anecdotes.jpg");
+    background-image: url("../imgs/anecdotes_2.jpg");
 }
 
 @media only screen and (max-width: 1100px){
@@ -298,7 +298,7 @@ a:hover {
     background-repeat: no-repeat;
     background-position: center;
     min-height: 100vh;
-    background-image: url("../imgs/merch.JPG");
+    background-image: url("../imgs/merch_2.jpg");
 }
 
 .merch-text {
@@ -361,7 +361,7 @@ a:hover {
     background-repeat: no-repeat;
     background-position: center;
     min-height: 100vh;
-    background-image: url("../imgs/tour.JPG");
+    background-image: url("../imgs/tour_2.jpg");
 }
 
 .tour-text {
