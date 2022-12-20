@@ -38,7 +38,8 @@
     </div>
     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas" aria-labelledby="offcanvas">
       <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvas"><a href="index"><img src="imgs\logo.png" style="max-width: 50%;"></a>
+        <h5 class="offcanvas-title" id="offcanvas"><a href="index"><img src="imgs\logo_new.png"
+              style="max-width: 50%;"></a>
         </h5>
         <i class="fas fa-times fa-2x" style="color: #f0ffff" class="btn-close text-reset" data-bs-dismiss="offcanvas"
           aria-label="Close"></i>
@@ -72,7 +73,7 @@
       <p class="link"><a href="index">Home</a></p>
       <p class="link"><a href="bio">Bio</a></p>
       <p class="link"><a href="music">Music</a></p>
-      <a href="index"><img class="logo" src="imgs\logo.png"></a>
+      <a href="index"><img class="logo" src="imgs\logo_new.png"></a>
       <p class="link"><a href="tour">Tour</a></p>
       <p class="link"><a href="merch">Merch</a></p>
       <p class="link"><a href="contact">Contact</a></p>
@@ -96,7 +97,17 @@
             <div class="additional-merch">
               <div class="additional-merch-opacity">
                 <p>
-                  Additional exclusive merch available at:
+                  <strong>FAQ:</strong>
+                </p>
+                <p>- When will my package be shipped?</p>
+                <p>As soon as possible, but no later than 14 days after purchase has been. Every order is picked, packed
+                  and shipped by members of the band, hence why your order won't necessarily ship the day after you place an order.</p>
+                <p>- Is my package tracked?</p>
+                <p>Unfortunately we cannot provide tracked shipping as the costs for this in Denmark are through the
+                  roof (as much as 25 eur per package). However if you wish to have your package tracked and pay for it,
+                  get in touch with us after you have placed your order at ghostirisband@gmail.com </p>
+                <p>
+                  <strong>Additional exclusive merch available at:</strong>
                 </p>
                 <p><a href="https://www.impericon.com/en/ghost-iris.html" target="_blank"><img
                       class="additional-merch-img" src="imgs\impericon2.png"></a></p>
@@ -108,208 +119,208 @@
           <div class="col-xl-8">
             <div class="merch-opacity">
               <h3 style="text-align: center; margin-bottom: 1em;">Full collection</h3>
-            <!-- Shopify start -->
-            <div id='collection-component-1631973239356'></div>
-            <script type="text/javascript">
-              /*<![CDATA[*/
-              (function () {
-                var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-                if (window.ShopifyBuy) {
-                  if (window.ShopifyBuy.UI) {
-                    ShopifyBuyInit();
+              <!-- Shopify start -->
+              <div id='collection-component-1631973239356'></div>
+              <script type="text/javascript">
+                /*<![CDATA[*/
+                (function () {
+                  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+                  if (window.ShopifyBuy) {
+                    if (window.ShopifyBuy.UI) {
+                      ShopifyBuyInit();
+                    } else {
+                      loadScript();
+                    }
                   } else {
                     loadScript();
                   }
-                } else {
-                  loadScript();
-                }
-                function loadScript() {
-                  var script = document.createElement('script');
-                  script.async = true;
-                  script.src = scriptURL;
-                  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-                  script.onload = ShopifyBuyInit;
-                }
-                function ShopifyBuyInit() {
-                  var client = ShopifyBuy.buildClient({
-                    domain: 'ghost-iris-merch.myshopify.com',
-                    storefrontAccessToken: '3e203694d93f6577c29c5c072317e3c4',
-                  });
-                  ShopifyBuy.UI.onReady(client).then(function (ui) {
-                    ui.createComponent('collection', {
-                      id: '261693997269',
-                      node: document.getElementById('collection-component-1631973239356'),
-                      moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
-                      options: {
-                        "product": {
-                          "styles": {
-                            "product": {
-                              "@@media (min-width: 601px)": {
-                                "max-width": "calc(33.33333% - 30px)",
-                                "margin-left": "30px",
-                                "margin-bottom": "50px",
-                                "width": "calc(33.33333% - 30px)"
-                              },
-                              "img": {
-                                "height": "calc(100% - 15px)",
-                                "position": "absolute",
-                                "left": "0",
-                                "right": "0",
-                                "top": "0"
-                              },
-                              "imgWrapper": {
-                                "padding-top": "calc(75% + 15px)",
-                                "position": "relative",
-                                "height": "0"
-                              }
-                            },
-                            "title": {
-                              "color": "#ffffff"
-                            },
-                            "button": {
-                              "color": "#000000",
-                              ":hover": {
-                                "color": "#000000",
-                                "background-color": "#ddb200"
-                              },
-                              "background-color": "#f5c600",
-                              ":focus": {
-                                "background-color": "#ddb200"
-                              }
-                            },
-                            "price": {
-                              "color": "#ffffff"
-                            },
-                            "compareAt": {
-                              "color": "#ffffff"
-                            },
-                            "unitPrice": {
-                              "color": "#ffffff"
-                            }
-                          },
-                          "buttonDestination": "modal",
-                          "contents": {
-                            "options": false
-                          },
-                          "text": {
-                            "button": "View product"
-                          }
-                        },
-                        "productSet": {
-                          "styles": {
-                            "products": {
-                              "@@media (min-width: 601px)": {
-                                "margin-left": "-30px"
-                              }
-                            }
-                          }
-                        },
-                        "modalProduct": {
-                          "contents": {
-                            "img": false,
-                            "imgWithCarousel": true,
-                            "button": false,
-                            "buttonWithQuantity": true
-                          },
-                          "styles": {
-                            "product": {
-                              "@@media (min-width: 601px)": {
-                                "max-width": "100%",
-                                "margin-left": "0px",
-                                "margin-bottom": "0px"
-                              }
-                            },
-                            "button": {
-                              "color": "#000000",
-                              ":hover": {
-                                "color": "#000000",
-                                "background-color": "#ddb200"
-                              },
-                              "background-color": "#f5c600",
-                              ":focus": {
-                                "background-color": "#ddb200"
-                              }
-                            },
-                            "title": {
-                              "font-family": "Helvetica Neue, sans-serif",
-                              "font-weight": "bold",
-                              "font-size": "26px",
-                              "color": "#4c4c4c"
-                            },
-                            "price": {
-                              "font-family": "Helvetica Neue, sans-serif",
-                              "font-weight": "normal",
-                              "font-size": "18px",
-                              "color": "#4c4c4c"
-                            },
-                            "compareAt": {
-                              "font-family": "Helvetica Neue, sans-serif",
-                              "font-weight": "normal",
-                              "font-size": "15.299999999999999px",
-                              "color": "#4c4c4c"
-                            },
-                            "unitPrice": {
-                              "font-family": "Helvetica Neue, sans-serif",
-                              "font-weight": "normal",
-                              "font-size": "15.299999999999999px",
-                              "color": "#4c4c4c"
-                            }
-                          },
-                          "text": {
-                            "button": "Add to cart"
-                          }
-                        },
-                        "option": {},
-                        "cart": {
-                          "styles": {
-                            "button": {
-                              "color": "#000000",
-                              ":hover": {
-                                "color": "#000000",
-                                "background-color": "#ddb200"
-                              },
-                              "background-color": "#f5c600",
-                              ":focus": {
-                                "background-color": "#ddb200"
-                              }
-                            }
-                          },
-                          "text": {
-                            "total": "Subtotal",
-                            "button": "Checkout"
-                          }
-                        },
-                        "toggle": {
-                          "styles": {
-                            "toggle": {
-                              "background-color": "#f5c600",
-                              ":hover": {
-                                "background-color": "#ddb200"
-                              },
-                              ":focus": {
-                                "background-color": "#ddb200"
-                              }
-                            },
-                            "count": {
-                              "color": "#000000",
-                              ":hover": {
-                                "color": "#000000"
-                              }
-                            },
-                            "iconPath": {
-                              "fill": "#000000"
-                            }
-                          }
-                        }
-                      },
+                  function loadScript() {
+                    var script = document.createElement('script');
+                    script.async = true;
+                    script.src = scriptURL;
+                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+                    script.onload = ShopifyBuyInit;
+                  }
+                  function ShopifyBuyInit() {
+                    var client = ShopifyBuy.buildClient({
+                      domain: 'ghost-iris-merch.myshopify.com',
+                      storefrontAccessToken: '3e203694d93f6577c29c5c072317e3c4',
                     });
-                  });
-                }
-              })();
+                    ShopifyBuy.UI.onReady(client).then(function (ui) {
+                      ui.createComponent('collection', {
+                        id: '261693997269',
+                        node: document.getElementById('collection-component-1631973239356'),
+                        moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
+                        options: {
+                          "product": {
+                            "styles": {
+                              "product": {
+                                "@@media (min-width: 601px)": {
+                                  "max-width": "calc(33.33333% - 30px)",
+                                  "margin-left": "30px",
+                                  "margin-bottom": "50px",
+                                  "width": "calc(33.33333% - 30px)"
+                                },
+                                "img": {
+                                  "height": "calc(100% - 15px)",
+                                  "position": "absolute",
+                                  "left": "0",
+                                  "right": "0",
+                                  "top": "0"
+                                },
+                                "imgWrapper": {
+                                  "padding-top": "calc(75% + 15px)",
+                                  "position": "relative",
+                                  "height": "0"
+                                }
+                              },
+                              "title": {
+                                "color": "#ffffff"
+                              },
+                              "button": {
+                                "color": "#000000",
+                                ":hover": {
+                                  "color": "#000000",
+                                  "background-color": "#ddb200"
+                                },
+                                "background-color": "#f5c600",
+                                ":focus": {
+                                  "background-color": "#ddb200"
+                                }
+                              },
+                              "price": {
+                                "color": "#ffffff"
+                              },
+                              "compareAt": {
+                                "color": "#ffffff"
+                              },
+                              "unitPrice": {
+                                "color": "#ffffff"
+                              }
+                            },
+                            "buttonDestination": "modal",
+                            "contents": {
+                              "options": false
+                            },
+                            "text": {
+                              "button": "View product"
+                            }
+                          },
+                          "productSet": {
+                            "styles": {
+                              "products": {
+                                "@@media (min-width: 601px)": {
+                                  "margin-left": "-30px"
+                                }
+                              }
+                            }
+                          },
+                          "modalProduct": {
+                            "contents": {
+                              "img": false,
+                              "imgWithCarousel": true,
+                              "button": false,
+                              "buttonWithQuantity": true
+                            },
+                            "styles": {
+                              "product": {
+                                "@@media (min-width: 601px)": {
+                                  "max-width": "100%",
+                                  "margin-left": "0px",
+                                  "margin-bottom": "0px"
+                                }
+                              },
+                              "button": {
+                                "color": "#000000",
+                                ":hover": {
+                                  "color": "#000000",
+                                  "background-color": "#ddb200"
+                                },
+                                "background-color": "#f5c600",
+                                ":focus": {
+                                  "background-color": "#ddb200"
+                                }
+                              },
+                              "title": {
+                                "font-family": "Helvetica Neue, sans-serif",
+                                "font-weight": "bold",
+                                "font-size": "26px",
+                                "color": "#4c4c4c"
+                              },
+                              "price": {
+                                "font-family": "Helvetica Neue, sans-serif",
+                                "font-weight": "normal",
+                                "font-size": "18px",
+                                "color": "#4c4c4c"
+                              },
+                              "compareAt": {
+                                "font-family": "Helvetica Neue, sans-serif",
+                                "font-weight": "normal",
+                                "font-size": "15.299999999999999px",
+                                "color": "#4c4c4c"
+                              },
+                              "unitPrice": {
+                                "font-family": "Helvetica Neue, sans-serif",
+                                "font-weight": "normal",
+                                "font-size": "15.299999999999999px",
+                                "color": "#4c4c4c"
+                              }
+                            },
+                            "text": {
+                              "button": "Add to cart"
+                            }
+                          },
+                          "option": {},
+                          "cart": {
+                            "styles": {
+                              "button": {
+                                "color": "#000000",
+                                ":hover": {
+                                  "color": "#000000",
+                                  "background-color": "#ddb200"
+                                },
+                                "background-color": "#f5c600",
+                                ":focus": {
+                                  "background-color": "#ddb200"
+                                }
+                              }
+                            },
+                            "text": {
+                              "total": "Subtotal",
+                              "button": "Checkout"
+                            }
+                          },
+                          "toggle": {
+                            "styles": {
+                              "toggle": {
+                                "background-color": "#f5c600",
+                                ":hover": {
+                                  "background-color": "#ddb200"
+                                },
+                                ":focus": {
+                                  "background-color": "#ddb200"
+                                }
+                              },
+                              "count": {
+                                "color": "#000000",
+                                ":hover": {
+                                  "color": "#000000"
+                                }
+                              },
+                              "iconPath": {
+                                "fill": "#000000"
+                              }
+                            }
+                          }
+                        },
+                      });
+                    });
+                  }
+                })();
 /*]]>*/
-            </script>
-            <!-- Shopify slut -->
-          </div>
+              </script>
+              <!-- Shopify slut -->
+            </div>
           </div>
         </div>
       </div>
